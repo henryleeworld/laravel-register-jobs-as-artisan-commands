@@ -1,4 +1,4 @@
-# Laravel 8 註冊任務成為 Artisan 指令
+# Laravel 9 註冊任務成為 Artisan 指令
 
 引入 spatie 的 laravel-artisan-dispatchable 套件來擴增匯註冊任務成為 Artisan 指令，方便利用 Artisan 指令執行任務。
 
