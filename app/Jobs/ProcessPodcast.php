@@ -34,6 +34,6 @@ class ProcessPodcast implements ShouldQueue, ArtisanDispatchable
      */
     public function handle()
     {
-        echo "處理 Podcast {$this->podcastId}\n";
+        echo __('Process Podcast :podcast_id', ['podcast_id' => $this->podcastId]) . PHP_EOL;
     }
 }
